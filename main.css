@@ -1,0 +1,151 @@
+:root{
+    --laranja-bem-escuro: #e36e00;
+    --laranja-escuro: #e67f19;
+    --laranja-medio: #e88c01;
+    --laranja-claro: #ffd472;
+    --laranja-bem-clarinho: #ffd592;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--laranja-claro);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+main{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+
+    /* background-color: var(--laranja-bem-clarinho); */
+
+}
+
+section .text{
+    width: 80%;
+}
+
+section .text p{
+    text-align: center;
+    font-variant-caps: small-caps;
+    color: var(--laranja-medio);
+
+    font-weight: 900;
+    font-size: 70px;
+    margin: 20px 0px 10px 0px;
+}
+
+.inicio img{
+    width: 600px;
+}
+
+.inicio{
+    background-color: var(--laranja-bem-clarinho);
+}
+
+.objetivo .small-text{
+    color: var(--laranja-medio);
+    font-size: 40px;
+}
+
+.objetivo .text p{
+    color: var(--laranja-escuro);
+}
+
+.objetivo img{ 
+    align-self: flex-end;
+    width: 180px;
+    margin-right: 50px;
+}
+
+.receitas{
+    background-color: var(--laranja-bem-clarinho);
+}
+
+.receitas .card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+
+.receitas .card img{
+    width: 300px;
+    border-radius: 18px;
+    border: 2px solid var(--laranja-escuro);
+
+}
+
+
+.receitas .card img:hover{
+    border: 2px solid white;
+
+}
+
+.agradecimento .small-text p{
+    font-size: 45px;
+}
+
+.contato{
+    background-color: var(--laranja-bem-clarinho);
+}
+
+.contato .conteudo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.contato .conteudo img{
+    border-radius: 18px;
+    height: 300px;
+    width: 300px;
+    margin-left: 60px;
+    align-self: center;
+}
+
+.contato .conteudo .small-text{
+    width: 100%;
+}
+
+.contato .conteudo .small-text p{
+    padding-left: 40px;
+    padding-right: 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 0.8;
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: var(--laranja-bem-clarinho);
+    background-color: var(--laranja-medio);
+}

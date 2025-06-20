@@ -1,0 +1,73 @@
+@media only screen and (max-width: 940px){
+    .receitas .card img{
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 818px){
+    .nav .lista{
+        width: 100%;
+        padding: 0%;
+        font-size: 0.8rem;
+    }
+
+    .logo{
+        margin-left: 0px;
+    }
+
+    section .text{
+        width: 90%;
+    }
+
+    section .text p{
+        font-size: 30px;
+    }
+
+    .inicio img{
+        width: 300px;
+    }
+
+    .objetivo img{
+        width: 50px;
+    }
+
+    .receitas .card{
+        flex-direction: column;
+    }
+
+    .contato .conteudo{
+        flex-direction: column;
+    }
+
+    .contato .conteudo img{
+        margin-left: 0px;
+    }
+
+    .contato .conteudo .small-text{
+        width: 100%;
+    }
+
+    #email{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .nav .lista{
+        /* font-size: 0.5rem; */
+        justify-content: space-between;
+    }
+
+    .nav a{
+        margin: 0px;
+    }
+
+    section .text p{
+        font-size: 20px;
+    }
+
+
+
+}

@@ -1,0 +1,41 @@
+@media only screen and (max-width: 769px){
+    main{
+        width: 90%;
+    }
+    
+    .ingredientes ul li p{
+        font-size: 1.5rem;
+    }
+
+    main .ingredientes .title{
+        line-height: 0.8;
+        margin-bottom: 50px;
+    }
+
+    /* .small-text{
+        margin-left: 20px;
+    } */
+
+
+
+
+}
+
+@media only screen and (max-width: 400px){
+    main{
+        width: 100%;
+    }
+
+    main .icone img{
+        width: 90%;
+    }
+
+    main .ingredientes .title{
+        font-size: 50px;
+    }
+
+    main .ingredientes li{
+        padding-right: 25px;
+    }
+
+}
